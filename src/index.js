@@ -23,5 +23,5 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
-const userRoutes = require('./routes/userRoutes');
-app.use('/api/users', userRoutes);
+const bloomerRoutes = require('./routes/bloomerDB');
+app.use('/api/users', bloomerRoutes);
